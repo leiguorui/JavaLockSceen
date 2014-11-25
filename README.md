@@ -5,6 +5,8 @@ ubuntu定时锁屏
 
 ##如何打包运行？
 
-> 下载代码后，使用maven命令打包：mvn clean compile assembly:single
+下载代码后，使用maven命令打包：
+> mvn clean compile assembly:single
 
-> 打包之后，在target文件夹下，运行jar：java -jar target/JavaTimer-1.0-SNAPSHOT-jar-with-dependencies.jar 
+打包之后，在target文件夹下，运行jar：
+> java -jar target/JavaTimer-1.0-SNAPSHOT-jar-with-dependencies.jar 
